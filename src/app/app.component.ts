@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-jest';
+  emailButtonText: string = 'Send E-Mail';
+  isEmailButtonEnabled: boolean = true;
+
+  onEmailButtonClick() {
+    this.emailButtonText = 'E-Mail sent!'
+    this.isEmailButtonEnabled = false;
+  }
 }
