@@ -7,4 +7,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Steps to reproduce
 
 * Follow [amadousall's](https://www.amadousall.com/how-to-set-up-angular-unit-testing-with-jest/) guide
-* Import zonejs/zone-testing into your src/test.ts
+* Import `jest-preset-angular/setup-jest` in your `setup-jest.ts`
